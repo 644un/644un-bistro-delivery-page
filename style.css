@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+body .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body .description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color: rgb(0, 0, 0);
+}
+
+.logo img {
+    max-width: 100%;
+    height: 50vh;
+    border: 5px solid black;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.description {
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.orderForm {
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: grey;
+    padding: 15px;
+    font-size: 1vw;
+    width: 30vw;
+}
