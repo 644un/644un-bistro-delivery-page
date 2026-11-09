@@ -60,9 +60,3 @@ a:visited {
     border: 5px solid darkgrey;
     border-radius: 15px;
 }
-
-.test {
-    margin-top: 100px;
-    font-size: 2rem;
-    transform: rotate(-50deg);
-}
