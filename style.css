@@ -60,3 +60,14 @@ a:visited {
     border: 5px solid darkgrey;
     border-radius: 15px;
 }
+
+textarea {
+    width: 50%; 
+    height: 10em;
+}
+
+textarea,
+select {
+    font-family: inherit;
+    font-size: 100%;
+}
